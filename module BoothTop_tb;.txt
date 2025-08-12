@@ -1,0 +1,29 @@
+module BoothTop_tb;
+
+	// Inputs
+	reg [3:0] M;
+	reg [4:0] Q;
+
+	// Outputs
+	wire [7:0] Z;
+
+	// Instantiate the Unit Under Test (UUT)
+	BoothTop uut (
+		.M(M), 
+		.Q(Q), 
+		.Z(Z)
+	);
+
+	initial begin
+		// Initialize Inputs
+		M = 0; Q= 0;
+		#60 M = 4; Q = -3;
+		#60 M = 7; Q = 7;
+		
+		#100;
+        
+		// Add stimulus here
+
+	end
+      
+endmodule
