@@ -120,4 +120,4 @@ Booth's Algorithm is known for:
 2. *Energy-Efficient VLSI Multiplier Using Modified Booth’s Algorithm*, 2021.  
 3. *A Booth Multiplier with Parallel Prefix Adder for VLSI Circuits*, 2020.
 
----
+--- 
